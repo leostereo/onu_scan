@@ -1,0 +1,43 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.20.250
+Warning: Permanently added '10.22.20.250' (RSA) to the list of known hosts.
+root@10.22.20.250's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN3   10.0.0.124      DESKTO 8c:89:a5:8a:0c:fb 0 days, 23:21:36
+2     LAN3   10.0.0.121      --     c8:ee:a6:3e:ea:6d 0 days, 17:12:05
+3     LAN3   10.0.0.122      --     60:c7:98:fb:e8:af 0 days, 17:13:20
+4     LAN3   10.0.0.107      --     c8:ee:a6:3e:dd:c2 0 days, 17:12:06
+5     SSID1  10.0.0.103      TL-WA8 ec:08:6b:39:bd:57 0 days, 13:04:33
+6     SSID0  10.0.0.113      iPhone 86:a0:37:30:02:66 0 days, 14:17:55
+7     SSID1  10.0.0.117      Galaxy de:cd:8a:7a:ac:d4 0 days, 12:17:59
+8     SSID0  10.0.0.128      iPhone 64:9a:be:1f:d7:bd 0 days, 21:15:11
+9     SSID0  10.0.0.111      DESKTO 64:66:b3:0f:52:d1 0 days, 17:26:27
+10    LAN3   10.0.0.101      --     a4:60:11:2c:49:f7 0 days, 23:02:09
+11    SSID0  10.0.0.139      Galaxy d0:fc:cc:b4:ab:89 0 days, 12:13:12
+12    LAN2   10.0.0.123      DESKTO 50:e5:49:9f:5f:70 0 days, 13:25:51
+13    SSID1  10.0.0.129      iPad-d 1a:a7:89:71:d4:00 0 days, 20:33:45
+14    LAN3   10.0.0.100      --     a4:60:11:26:fd:cd 0 days, 22:16:22
+15    SSID1  10.0.0.145      --     38:ef:e3:3a:40:56 0 days, 22:33:31
+16    SSID1  10.0.0.118      iPhone 64:a5:c3:a0:c2:0b 0 days, 23:35:36
+17    LAN2   10.0.0.115      Samsun 64:1c:b0:69:a7:6d 0 days, 23:50:11
+18    SSID1  10.0.0.116      iPhone 6e:8b:1d:4b:9d:cc 0 days, 23:23:46
+19    SSID1  10.0.0.112      iPhone 3a:1c:d9:fa:f4:ad 0 days, 18:36:52
+20    LAN0   10.0.0.146      Chrome 6c:ad:f8:34:99:7c 0 days, 11:15:42
+21    SSID1  10.0.0.132      --     24:46:c8:bb:11:bc 0 days, 16:43:56
+22    SSID1  10.0.0.108      Laura  64:66:b3:1d:86:e4 0 days, 12:43:43
+23    SSID1  10.0.0.130      androi 7c:1c:68:1f:ac:2e 0 days, 23:59:57
+24    SSID1  10.0.0.105      iPhone f6:78:36:fd:95:2a 0 days, 23:22:39
+25    SSID1  10.0.0.106      iPhone 42:fe:44:ea:8d:80 0 days, 16:49:03
+----------------------------------------------------------------------
+Total: 25
+
+success!
+WAP>

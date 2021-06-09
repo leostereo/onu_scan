@@ -1,0 +1,30 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.18.140
+Warning: Permanently added '10.22.18.140' (RSA) to the list of known hosts.
+root@10.22.18.140's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN3   10.0.0.110      Linksy b4:75:0e:9e:78:e4 0 days, 12:12:56
+2     SSID1  10.0.0.118      RingDo 34:3e:a4:17:4b:42 0 days, 12:12:18
+3     SSID1  10.0.0.102      LSTEFA c0:b6:f9:b5:3a:51 0 days, 13:27:45
+4     SSID1  10.0.0.125      --     1c:fe:2b:ac:8d:8a 0 days, 13:25:34
+5     SSID1  10.0.0.123      Galaxy 92:ed:1b:de:2b:26 0 days, 22:00:39
+6     SSID1  10.0.0.101      Luis   30:96:fb:9f:d2:4d 0 days, 22:03:18
+7     SSID1  10.0.0.106      localh e4:7d:bd:bb:a2:a1 0 days, 19:03:34
+8     SSID1  10.0.0.104      --     0c:cb:85:ba:b9:7b 0 days, 20:43:53
+9     SSID1  10.0.0.107      WIN-GT e0:9d:31:0d:9c:24 0 days, 20:53:20
+10    LAN4   10.0.0.111      --     68:07:0a:1e:63:2a 0 days, 21:52:31
+11    LAN1   10.0.0.119      LAPTOP 8c:8c:aa:96:92:a8 0 days, 21:49:40
+12    SSID1  10.0.0.113      amazon fc:a6:67:70:9e:d9 0 days, 19:04:16
+----------------------------------------------------------------------
+Total: 12
+
+success!
+WAP>

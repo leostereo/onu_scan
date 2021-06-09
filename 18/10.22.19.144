@@ -1,0 +1,32 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.19.144
+Warning: Permanently added '10.22.19.144' (RSA) to the list of known hosts.
+root@10.22.19.144's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN4   10.0.0.103      localh e4:7d:bd:de:7c:ab 0 days, 20:52:22
+2     SSID1  10.0.0.123      TL-WA8 82:16:f9:40:34:38 0 days, 12:06:52
+3     SSID1  10.0.0.131      --     3e:16:f9:a3:31:58 0 days, 16:25:49
+4     SSID0  10.0.0.171      01482t 86:16:f9:34:68:2f 0 days, 23:03:22
+5     SSID1  10.0.0.172      01482t c8:f3:19:34:68:2f 0 days, 23:45:08
+6     SSID1  10.0.0.126      Galaxy 86:16:f9:ed:4d:98 0 days, 18:26:52
+7     SSID1  10.0.0.102      --     3a:d7:73:a3:31:58 0 days, 15:20:23
+8     SSID1  10.0.0.173      Galaxy 0a:16:f9:70:69:20 0 days, 17:13:41
+9     SSID0  10.0.0.148      HUAWEI 86:16:f9:d0:9a:45 0 days, 22:27:04
+10    SSID1  10.0.0.101      Galaxy d0:fc:cc:ed:4d:98 0 days, 02:20:18
+11    SSID0  10.0.0.120      Galaxy 64:89:f1:fa:01:75 0 days, 04:04:01
+12    SSID0  10.0.0.118      androi ac:0d:1b:ae:36:98 0 days, 18:02:44
+13    SSID0  10.0.0.174      K40S   c8:f3:19:34:43:7e 0 days, 18:39:41
+14    SSID0  10.0.0.143      androi 86:16:f9:ae:36:98 0 days, 18:40:51
+----------------------------------------------------------------------
+Total: 14
+
+success!
+WAP>

@@ -1,0 +1,36 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.21.226
+Warning: Permanently added '10.22.21.226' (RSA) to the list of known hosts.
+root@10.22.21.226's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN1   10.0.0.159      --     f4:92:bf:20:da:42 0 days, 12:03:45
+2     SSID1  10.0.0.165      --     86:31:75:67:10:72 0 days, 11:57:36
+3     SSID1  10.0.0.140      Menco- 4c:0f:6e:ef:04:63 0 days, 13:57:57
+4     SSID1  10.0.0.199      RedmiN a4:45:19:65:3d:0c 0 days, 11:48:10
+5     SSID1  10.0.0.200      --     fe:78:7a:7e:2f:60 0 days, 22:08:19
+6     SSID1  10.0.0.141      Galaxy 92:05:0a:44:a8:2c 0 days, 12:09:17
+7     LAN1   10.0.0.177      --     d4:ab:cd:9d:17:2f 0 days, 00:05:59
+8     SSID1  10.0.0.138      --     5e:ff:ec:1e:08:40 0 days, 13:39:06
+9     LAN1   10.0.0.161      --     a6:49:2e:e4:00:1c 0 days, 23:58:03
+10    SSID1  10.0.0.170      BRW1CB 1c:bf:c0:f4:ea:22 0 days, 12:03:28
+11    SSID1  10.0.0.183      --     00:e0:2d:bd:33:f9 0 days, 18:41:45
+12    SSID1  10.0.0.110      androi 10:f1:f2:34:2c:b4 0 days, 15:45:03
+13    SSID1  10.0.0.180      RedmiN 60:ab:67:b9:6a:94 0 days, 18:57:23
+14    LAN1   10.0.0.174      Galaxy 2a:59:87:79:86:33 0 days, 18:58:53
+15    LAN1   10.0.0.193      HUAWEI b0:eb:57:2f:11:fa 0 days, 20:26:34
+16    SSID1  10.0.0.168      Redmi5 04:b1:67:6c:b2:6a 0 days, 22:04:17
+17    LAN1   10.0.0.194      iPhone ca:c9:dd:17:93:66 0 days, 22:41:48
+18    SSID1  10.0.0.153      --     f2:1c:fc:d4:09:bb 0 days, 00:12:17
+----------------------------------------------------------------------
+Total: 18
+
+success!
+WAP>

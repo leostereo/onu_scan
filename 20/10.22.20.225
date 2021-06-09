@@ -1,0 +1,38 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.20.225
+Warning: Permanently added '10.22.20.225' (RSA) to the list of known hosts.
+root@10.22.20.225's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID5  10.0.0.126      Air-de c8:69:cd:b6:74:34 0 days, 22:38:10
+2     SSID1  10.0.0.164      iPhone ba:48:0f:15:48:22 0 days, 00:56:23
+3     LAN2   10.0.0.110      --     00:90:a9:82:21:d9 0 days, 17:51:32
+4     LAN2   10.0.0.107      iPhone 42:c7:51:72:d7:10 0 days, 22:49:30
+5     LAN2   10.0.0.113      iPad-d fe:2f:c3:e2:7b:2c 0 days, 21:41:14
+6     LAN2   10.0.0.112      Facu   3e:3a:c8:f8:62:3f 0 days, 21:39:23
+7     LAN2   10.0.0.118      --     b8:5f:98:1e:2f:0b 0 days, 10:51:23
+8     LAN2   10.0.0.100      airpor d0:03:4b:5c:ca:8a 0 days, 17:16:27
+9     SSID1  10.0.0.132      Rulo-P 00:1c:7b:a1:95:47 0 days, 22:28:21
+10    SSID5  10.0.0.105      Papa   66:66:a7:a0:8f:4f 0 days, 23:41:12
+11    LAN2   10.0.0.159      Galaxy b2:e6:fb:9d:d3:d8 0 days, 22:45:52
+12    SSID5  10.0.0.177      iPhone f0:99:bf:3a:92:a7 0 days, 23:49:15
+13    SSID5  10.0.0.106      AppleW 6e:08:b4:d9:00:d4 0 days, 23:41:24
+14    LAN2   10.0.0.192      localh cc:b1:1a:14:d4:4c 0 days, 22:32:07
+15    SSID5  10.0.0.121      Galaxy aa:10:03:a2:a2:62 0 days, 03:14:47
+16    LAN2   10.0.0.119      Papa   a2:30:b9:a3:f1:f7 0 days, 13:25:09
+17    SSID1  10.0.0.156      Samsun 5c:c1:d7:a6:8a:2c 0 days, 02:47:24
+18    SSID1  10.0.0.191      Galaxy 76:27:45:ea:a5:92 0 days, 22:29:31
+19    LAN2   10.0.0.134      BCAW10 3c:6a:a7:71:89:0f 0 days, 23:23:17
+20    SSID5  10.0.0.187      --     1c:c6:3c:91:bc:b8 0 days, 00:00:55
+----------------------------------------------------------------------
+Total: 20
+
+success!
+WAP>

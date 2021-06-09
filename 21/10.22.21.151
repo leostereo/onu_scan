@@ -1,0 +1,31 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.21.151
+Warning: Permanently added '10.22.21.151' (RSA) to the list of known hosts.
+root@10.22.21.151's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN3   10.0.0.120      LGwebO c8:08:e9:bd:1a:84 0 days, 22:37:17
+2     SSID1  10.0.0.103      Beln  4c:eb:bd:79:21:e5 0 days, 22:39:50
+3     SSID1  10.0.0.168      TL-WA8 52:d4:f6:c4:b9:82 0 days, 22:27:39
+4     SSID1  10.0.0.104      Galaxy 0e:64:72:2b:49:d8 0 days, 22:27:56
+5     SSID1  10.0.0.169      Galaxy 52:d4:f6:2c:d2:20 0 days, 23:18:50
+6     SSID1  10.0.0.107      Galaxy 48:c7:96:cc:ca:53 0 days, 16:29:28
+7     SSID0  10.0.0.165      lucas- f8:59:71:2f:c8:f3 0 days, 03:10:15
+8     SSID1  10.0.0.145      AR-MDZ a8:7e:ea:d8:26:6f 0 days, 22:31:48
+9     SSID0  10.0.0.108      Galaxy 52:d4:f6:d5:84:c9 0 days, 20:17:55
+10    SSID0  10.0.0.114      Galaxy 46:fa:4e:f7:ba:75 0 days, 15:31:07
+11    SSID1  10.0.0.166      lucas- 52:d4:f6:2f:c8:f3 0 days, 20:37:04
+12    SSID1  10.0.0.105      Galaxy c0:17:4d:d5:84:c9 0 days, 20:17:57
+13    SSID0  10.0.0.106      Beln  52:d4:f6:79:21:e5 0 days, 22:39:40
+----------------------------------------------------------------------
+Total: 13
+
+success!
+WAP>

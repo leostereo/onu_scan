@@ -1,0 +1,32 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.19.47
+Warning: Permanently added '10.22.19.47' (RSA) to the list of known hosts.
+root@10.22.19.47's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN3   10.0.0.122      --     2c:d0:5a:7d:60:75 0 days, 20:55:45
+2     SSID1  10.0.0.107      --     bc:98:df:a4:bb:c7 0 days, 23:39:36
+3     SSID1  10.0.0.128      Galaxy 04:d6:aa:a3:4e:8e 0 days, 23:03:46
+4     SSID1  10.0.0.189      --     ea:d6:77:8a:fb:28 0 days, 23:57:13
+5     SSID0  10.0.0.126      Galaxy fc:a6:21:62:f5:40 0 days, 18:53:45
+6     LAN3   10.0.0.121      DESKTO d0:37:45:9b:5f:7d 0 days, 15:53:06
+7     SSID1  10.0.0.113      --     70:c9:4e:34:89:77 0 days, 19:01:38
+8     LAN3   10.0.0.161      Galaxy 86:21:04:ab:de:e3 0 days, 23:05:04
+9     LAN4   10.0.0.111      Ernest f0:4d:a2:fb:1e:e7 0 days, 16:54:02
+10    LAN3   10.0.0.123      BP2 As f4:69:42:1e:f7:56 0 days, 15:04:51
+11    LAN3   10.0.0.190      --     6e:c3:a3:7e:44:0a 0 days, 23:55:49
+12    SSID0  10.0.0.105      Galaxy fa:24:a4:d2:99:67 0 days, 22:16:48
+13    LAN0   10.0.0.157      --     96:a4:b3:32:9d:cf 0 days, 17:44:37
+14    LAN3   10.0.0.102      LAPTOP 40:5b:d8:d6:f2:01 0 days, 23:57:15
+----------------------------------------------------------------------
+Total: 14
+
+success!
+WAP>

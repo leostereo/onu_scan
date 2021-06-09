@@ -1,0 +1,4 @@
+for i in {101..110} ; do /usr/bin/expect expect.sh  10.22.17.$i &>> ./17/10.22.17.$i  &  done
+for i in {2..254} ; do /usr/bin/expect expect.sh  10.22.18.$i &>> ./18/10.22.18.$i  &  donfor i in {2..254} ; do /usr/bin/expect expect.sh  10.22.18.$i &>> ./18/10.22.18.$i  &  donee
+
+for i in {2..254} ; do /usr/bin/expect expect.sh  10.22.16.$i >> ./16/10.22.16.$i; done

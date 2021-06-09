@@ -1,0 +1,39 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.19.88
+Warning: Permanently added '10.22.19.88' (RSA) to the list of known hosts.
+root@10.22.19.88's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.109      A910-1 54:81:2d:98:ac:0e 0 days, 23:00:21
+2     SSID1  10.0.0.113      androi 00:57:c1:a3:3a:4b 0 days, 19:55:26
+3     LAN1   10.0.0.105      RECEPC bc:5f:f4:cd:65:7f 0 days, 11:01:39
+4     LAN4   10.0.0.128      androi 70:85:c2:3a:9a:12 0 days, 11:01:57
+5     LAN2   10.0.0.104      RICARD 00:30:67:a0:19:8b 0 days, 23:02:15
+6     SSID1  10.0.0.111      --     94:e0:d6:7f:2a:b8 0 days, 11:05:57
+7     SSID1  10.0.0.114      androi dc:bf:e9:63:98:04 0 days, 14:56:37
+8     SSID1  10.0.0.110      --     90:73:5a:72:76:ce 0 days, 11:07:36
+9     SSID1  10.0.0.151      androi 7a:02:d9:6a:58:19 0 days, 11:15:48
+10    SSID1  10.0.0.101      Galaxy 30:6a:85:bd:9a:69 0 days, 11:31:12
+11    SSID1  10.0.0.119      androi dc:bf:e9:03:7a:fb 0 days, 16:38:43
+12    SSID1  10.0.0.144      --     12:59:3e:01:3a:f1 0 days, 14:24:52
+13    SSID1  10.0.0.116      -incca e8:de:27:ed:3e:c1 0 days, 12:10:13
+14    SSID1  10.0.0.115      --     0c:ec:8d:b3:71:44 0 days, 14:44:59
+15    SSID1  10.0.0.152      DESKTO 5c:ba:ef:ef:08:a5 0 days, 14:28:26
+16    SSID1  10.0.0.126      Galaxy 0e:8f:33:0b:60:35 0 days, 14:23:50
+17    SSID1  10.0.0.107      Galaxy a4:07:b6:d5:c0:f1 0 days, 23:39:34
+18    SSID1  10.0.0.127      Galaxy 96:e8:c0:d1:f5:71 0 days, 16:04:50
+19    SSID1  10.0.0.136      Galaxy 12:8e:c3:87:cf:c8 0 days, 16:34:37
+20    SSID1  10.0.0.108      --     4c:02:20:f1:75:d8 0 days, 21:48:39
+21    SSID1  10.0.0.124      Galaxy 86:39:43:ef:6f:f3 0 days, 22:55:51
+----------------------------------------------------------------------
+Total: 21
+
+success!
+WAP>

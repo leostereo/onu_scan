@@ -1,0 +1,33 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.16.86
+Warning: Permanently added '10.22.16.86' (RSA) to the list of known hosts.
+root@10.22.16.86's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.105      Chrome f0:ef:86:55:2f:9f 0 days, 20:36:51
+2     SSID1  10.0.0.111      --     38:01:95:d2:e4:bb 0 days, 23:44:13
+3     SSID1  10.0.0.106      androi 58:00:e3:90:f2:fd 0 days, 22:55:37
+4     SSID1  10.0.0.183      Galaxy 30:07:4d:9b:1b:ef 0 days, 23:33:58
+5     SSID1  10.0.0.176      Lucas- be:1e:fe:1f:be:cd 0 days, 16:39:47
+6     SSID1  10.0.0.120      Wirele 00:e0:20:44:db:1d 0 days, 18:15:38
+7     SSID1  10.0.0.129      Galaxy fc:a6:21:3b:7b:e6 0 days, 16:35:05
+8     SSID1  10.0.0.123      RedmiN 9c:28:f7:8c:4e:5e 0 days, 23:27:46
+9     SSID1  10.0.0.117      iPhone 1a:22:a4:2a:9a:ed 0 days, 18:16:32
+10    SSID1  10.0.0.112      Galaxy 06:a7:30:37:4e:c2 0 days, 17:29:35
+11    SSID1  10.0.0.115      Wirele 02:e0:20:04:db:1b 0 days, 22:28:41
+12    SSID1  10.0.0.175      Lucas- 1e:6c:85:f3:97:5e 0 days, 18:37:24
+13    SSID1  10.0.0.151      Galaxy de:17:2a:2e:b5:31 0 days, 22:16:47
+14    SSID1  10.0.0.102      iPhone 1e:3a:59:dc:0f:55 0 days, 22:48:31
+15    SSID1  10.0.0.121      Galaxy a2:dd:d8:c1:ae:58 0 days, 01:20:47
+----------------------------------------------------------------------
+Total: 15
+
+success!
+WAP>

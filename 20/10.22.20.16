@@ -1,0 +1,31 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.20.16
+Warning: Permanently added '10.22.20.16' (RSA) to the list of known hosts.
+root@10.22.20.16's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID0  10.0.0.136      Galaxy 14:56:8e:0e:63:99 0 days, 16:10:05
+2     SSID0  10.0.0.112      --     da:a2:4f:13:be:4a 0 days, 03:13:03
+3     SSID0  10.0.0.135      --     04:d3:95:18:32:0b 0 days, 17:37:34
+4     SSID0  10.0.0.108      androi d2:1d:0c:8f:9f:f0 0 days, 15:13:27
+5     SSID1  10.0.0.117      Galaxy fa:b1:c9:de:6a:0a 0 days, 23:37:54
+6     SSID0  10.0.0.109      --     ea:28:98:72:1c:ff 0 days, 23:45:03
+7     SSID1  10.0.0.118      Galaxy fe:3b:4e:09:e8:de 0 days, 22:13:56
+8     SSID1  10.0.0.124      --     24:46:c8:bb:3e:dd 0 days, 23:44:12
+9     SSID0  10.0.0.122      --     66:1c:7e:0a:0b:a0 0 days, 19:26:58
+10    SSID0  10.0.0.103      Galaxy ae:7a:2b:05:4b:f8 0 days, 20:14:01
+11    SSID0  10.0.0.101      HUAWEI 74:d2:1d:90:57:06 0 days, 11:09:48
+12    SSID0  10.0.0.123      --     56:98:2c:82:d3:e2 0 days, 23:38:20
+13    SSID1  10.0.0.107      HUAWEI 38:37:8b:76:c6:1b 0 days, 21:55:29
+----------------------------------------------------------------------
+Total: 13
+
+success!
+WAP>

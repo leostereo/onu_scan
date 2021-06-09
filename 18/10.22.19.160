@@ -1,0 +1,62 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.19.160
+Warning: Permanently added '10.22.19.160' (RSA) to the list of known hosts.
+root@10.22.19.160's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN4   10.0.0.115      --     14:cc:20:86:1b:63 4 days, 15:18:52
+2     SSID0  10.0.0.195      androi 10:d3:8a:bc:4c:e5 6 days, 21:26:46
+3     SSID0  10.0.0.143      Galaxy c2:24:a9:6a:3d:ac 6 days, 15:02:52
+4     SSID0  10.0.0.194      Galaxy fc:a6:21:86:e7:93 6 days, 17:29:01
+5     SSID0  10.0.0.105      Galaxy 20:32:6c:41:b9:b5 6 days, 17:48:22
+6     SSID0  10.0.0.149      androi dc:44:b6:24:cb:d3 4 days, 15:39:25
+7     SSID0  10.0.0.145      --     58:d9:c3:3c:1a:55 6 days, 15:11:12
+8     SSID0  10.0.0.130      HUAWEI a8:c8:3a:06:e2:aa 6 days, 18:07:15
+9     SSID0  10.0.0.189      Sese-C e0:b9:a5:82:04:11 5 days, 16:38:16
+10    SSID0  10.0.0.169      Galaxy e8:93:09:59:5e:a9 6 days, 17:24:04
+11    SSID0  10.0.0.139      mari   e0:06:e6:5d:ac:cd 6 days, 15:35:44
+12    SSID0  10.0.0.141      Galaxy 30:6a:85:c3:51:f5 5 days, 15:41:46
+13    SSID0  10.0.0.135      CIC03F b8:ee:65:66:84:35 6 days, 18:13:05
+14    SSID0  10.0.0.110      K50    c8:f3:19:35:75:f9 6 days, 18:15:32
+15    SSID0  10.0.0.193      SM-J26 90:63:3b:45:99:73 6 days, 22:57:08
+16    SSID0  10.0.0.158      Galaxy dc:44:b6:84:59:22 5 days, 23:07:19
+17    SSID0  10.0.0.177      Galaxy 94:2d:dc:73:ef:c0 6 days, 22:12:11
+18    SSID0  10.0.0.129      HUAWEI b0:89:00:f7:b4:02 6 days, 17:15:01
+19    SSID0  10.0.0.179      androi b4:bf:f6:38:cc:8b 6 days, 19:15:45
+20    SSID0  10.0.0.182      --     bc:ff:eb:1f:04:b6 6 days, 22:30:00
+21    SSID0  10.0.0.196      CI7427 54:27:1e:eb:69:1b 6 days, 20:32:07
+22    SSID0  10.0.0.178      Galaxy dc:89:83:85:36:c1 6 days, 22:47:51
+23    SSID0  10.0.0.180      androi 00:87:01:b6:5c:93 6 days, 20:20:23
+24    SSID0  10.0.0.108      --     dc:cf:96:f7:ae:1b 6 days, 17:37:07
+25    SSID0  10.0.0.159      LAPTOP 90:cc:df:e7:46:22 6 days, 22:36:33
+26    SSID0  10.0.0.142      Galaxy c6:1e:65:d1:e9:73 6 days, 16:17:09
+27    SSID0  10.0.0.123      --     58:d9:c3:75:5c:a0 6 days, 03:21:32
+28    SSID0  10.0.0.132      iPhone b6:cc:58:d6:17:26 5 days, 15:39:40
+29    SSID0  10.0.0.199      DESKTO b4:6d:83:7f:72:2c 5 days, 16:12:38
+30    SSID0  10.0.0.171      --     b6:ec:05:3c:c9:8b 6 days, 16:12:11
+31    SSID0  10.0.0.114      androi b4:ef:39:a9:8f:a4 5 days, 16:27:40
+32    SSID0  10.0.0.133      --     c8:c7:50:74:e5:c8 6 days, 11:43:46
+33    SSID0  10.0.0.157      --     5e:89:45:11:25:e5 5 days, 18:05:57
+34    SSID0  10.0.0.118      Galaxy d6:4d:29:ed:5b:98 6 days, 17:59:19
+35    SSID0  10.0.0.187      Patric 68:a3:c4:86:68:fa 5 days, 22:58:57
+36    SSID0  10.0.0.162      DESKTO 00:24:23:0d:b4:c2 5 days, 19:54:20
+37    SSID0  10.0.0.165      Galaxy ca:a9:27:3d:4c:f2 5 days, 18:22:50
+38    SSID0  10.0.0.190      intel- 00:0a:eb:45:ba:1c 5 days, 21:31:18
+39    SSID0  10.0.0.137      RedmiN 4c:63:71:92:39:6e 6 days, 17:54:30
+40    SSID0  10.0.0.198      DESKTO c8:ff:28:a3:bd:d4 6 days, 21:28:58
+41    SSID0  10.0.0.109      --     90:73:5a:73:08:93 6 days, 18:59:59
+42    SSID0  10.0.0.181      An lit 00:18:e7:26:ba:a7 6 days, 22:01:05
+43    SSID0  10.0.0.200      androi f4:f5:24:fd:25:5d 6 days, 22:40:52
+44    SSID1  10.0.0.161      --     ca:dc:a6:7f:a5:10 6 days, 23:21:18
+----------------------------------------------------------------------
+Total: 44
+
+success!
+WAP>

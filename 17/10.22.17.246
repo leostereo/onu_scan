@@ -1,0 +1,43 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.17.246
+Warning: Permanently added '10.22.17.246' (RSA) to the list of known hosts.
+root@10.22.17.246's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN3   10.0.0.107      Galaxy b0:6f:e0:93:d3:f0 0 days, 23:40:42
+2     LAN3   10.0.0.111      DESKTO 3c:7c:3f:0f:25:27 0 days, 12:51:18
+3     LAN3   10.0.0.163      DESKTO f0:2f:74:82:c2:25 0 days, 14:58:09
+4     SSID1  10.0.0.145      DESKTO e8:de:27:9e:f5:10 0 days, 23:52:47
+5     LAN3   10.0.0.110      HUAWEI 1c:15:1f:f8:ce:78 0 days, 23:35:37
+6     SSID1  10.0.0.104      info3  ac:81:12:95:39:ac 0 days, 12:54:58
+7     SSID1  10.0.0.193      androi 5c:af:06:10:92:6a 0 days, 22:34:20
+8     SSID1  10.0.0.114      --     c8:c7:50:9b:81:30 0 days, 23:30:23
+9     LAN3   10.0.0.113      Galaxy ea:6e:7e:a8:97:49 0 days, 23:05:33
+10    SSID1  10.0.0.196      androi b4:d1:da:c4:40:da 0 days, 23:58:11
+11    LAN3   10.0.0.195      LG-K22 c8:f3:19:3d:45:a3 0 days, 16:55:23
+12    LAN3   10.0.0.124      Galaxy b2:ad:71:1f:aa:88 0 days, 13:07:12
+13    LAN4   10.0.0.181      pc8    00:30:67:d1:9e:96 0 days, 13:04:46
+14    LAN1   10.0.0.103      pc3    00:24:8c:c6:74:4f 0 days, 13:25:22
+15    SSID1  10.0.0.102      Galaxy 6e:91:7d:61:8d:42 0 days, 22:44:15
+16    SSID1  10.0.0.126      Galaxy b2:08:4b:c8:8d:54 0 days, 23:43:14
+17    LAN2   10.0.0.198      --     e8:9a:8f:94:9a:d4 0 days, 16:49:13
+18    SSID1  10.0.0.173      --     d6:dc:cd:28:be:bf 0 days, 20:16:22
+19    SSID1  10.0.0.194      --     c8:c7:50:c9:e0:f8 0 days, 18:22:36
+20    SSID1  10.0.0.108      DESKTO 50:b7:c3:ec:c4:ff 0 days, 16:52:22
+21    LAN3   10.0.0.122      Galaxy d0:b1:28:39:59:29 0 days, 20:20:48
+22    SSID1  10.0.0.131      Andrea d0:df:9a:33:f5:70 0 days, 22:56:26
+23    LAN2   10.0.0.169      DESKTO 20:89:84:19:f2:15 0 days, 17:05:34
+24    LAN3   10.0.0.188      androi cc:61:e5:db:63:ee 0 days, 20:41:22
+25    SSID1  10.0.0.174      androi 88:79:7e:d3:34:5c 0 days, 20:51:15
+----------------------------------------------------------------------
+Total: 25
+
+success!
+WAP>

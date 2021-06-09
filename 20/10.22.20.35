@@ -1,0 +1,31 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.20.35
+Warning: Permanently added '10.22.20.35' (RSA) to the list of known hosts.
+root@10.22.20.35's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID0  10.0.0.111      androi a4:3e:a0:7e:92:1a 0 days, 15:33:15
+2     SSID0  10.0.0.102      --     f6:be:b0:f9:60:35 0 days, 21:49:36
+3     SSID0  10.0.0.122      --     d4:c9:4b:56:80:1a 0 days, 21:22:28
+4     SSID0  10.0.0.196      --     ee:e9:0c:f5:6b:4c 0 days, 22:14:47
+5     SSID0  10.0.0.116      --     d2:11:6d:2b:5f:3a 0 days, 20:06:03
+6     SSID0  10.0.0.151      Asus-P 1c:4b:d6:ff:44:e7 0 days, 21:05:32
+7     SSID1  10.0.0.107      androi 00:87:01:62:49:6a 0 days, 22:36:26
+8     SSID1  10.0.0.108      androi a4:70:d6:64:a4:c1 0 days, 23:47:15
+9     SSID1  10.0.0.103      androi 34:14:5f:95:68:2b 0 days, 23:43:49
+10    SSID1  10.0.0.189      androi 98:b8:ba:0d:36:14 0 days, 21:20:52
+11    SSID0  10.0.0.113      androi 1c:23:2c:f5:c0:a3 0 days, 00:29:18
+12    SSID0  10.0.0.104      --     8c:f1:12:ba:1a:ac 0 days, 22:28:46
+13    SSID1  10.0.0.106      --     f8:d0:ac:32:e1:a9 0 days, 22:42:16
+----------------------------------------------------------------------
+Total: 13
+
+success!
+WAP>

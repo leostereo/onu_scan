@@ -1,0 +1,6 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.17.223
+ssh: connect to host 10.22.17.223 port 22: Connection refused
+expect: spawn id exp6 not open
+    while executing
+"expect "WAP" { send "display dhcp server user all\r" }"
+    (file "expect.sh" line 10)

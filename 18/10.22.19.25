@@ -1,0 +1,37 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.19.25
+Warning: Permanently added '10.22.19.25' (RSA) to the list of known hosts.
+root@10.22.19.25's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.147      --     60:35:73:e6:c1:35 0 days, 23:58:58
+2     SSID1  10.0.0.139      Galaxy 8a:fa:be:17:fa:af 0 days, 18:37:05
+3     SSID0  10.0.0.113      androi 30:6a:85:cc:45:45 0 days, 22:24:45
+4     SSID1  10.0.0.114      DESKTO c8:b2:9b:7e:70:de 0 days, 23:28:29
+5     SSID1  10.0.0.107      Galaxy 2e:11:20:bb:9d:d6 0 days, 21:04:31
+6     SSID0  10.0.0.104      androi f4:f1:e1:0d:84:f8 0 days, 05:31:46
+7     SSID1  10.0.0.101      Galaxy a4:07:b6:20:3d:4e 0 days, 22:23:48
+8     SSID1  10.0.0.110      iPhone ee:47:34:69:a3:b6 0 days, 19:30:16
+9     SSID0  10.0.0.103      --     b0:35:9f:55:8c:73 0 days, 00:30:57
+10    SSID0  10.0.0.117      Galaxy 10:89:fb:78:dd:f8 0 days, 18:19:44
+11    SSID0  10.0.0.119      localh 9c:8c:6e:5e:90:3a 0 days, 20:34:22
+12    SSID1  10.0.0.109      NOEMI- 50:2b:73:c4:a1:cd 0 days, 21:15:44
+13    SSID0  10.0.0.102      --     d0:77:14:aa:23:5e 0 days, 12:32:44
+14    SSID0  10.0.0.105      Cristi ba:35:cb:91:1a:cb 0 days, 11:47:06
+15    SSID0  10.0.0.108      --     40:cd:7a:1d:3c:e0 0 days, 01:34:24
+16    SSID0  10.0.0.145      ME2068 20:68:9d:e4:61:4d 0 days, 17:18:56
+17    SSID0  10.0.0.134      Galaxy a4:07:b6:28:bf:84 0 days, 23:35:59
+18    SSID0  10.0.0.148      Galaxy ec:1f:72:17:d1:20 0 days, 22:51:00
+19    SSID0  10.0.0.136      --     fc:d4:36:42:1e:1f 0 days, 22:53:12
+----------------------------------------------------------------------
+Total: 19
+
+success!
+WAP>

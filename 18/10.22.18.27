@@ -1,0 +1,31 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.18.27
+Warning: Permanently added '10.22.18.27' (RSA) to the list of known hosts.
+root@10.22.18.27's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.110      Alcate 88:9e:33:fe:20:ca 0 days, 17:24:23
+2     SSID1  10.0.0.102      --     40:cd:7a:a2:ff:57 0 days, 14:33:15
+3     SSID1  10.0.0.106      --     30:4b:07:34:f5:d0 0 days, 21:32:08
+4     SSID1  10.0.0.105      Galaxy 14:96:e5:5e:6b:61 0 days, 17:04:02
+5     SSID1  10.0.0.119      Galaxy dc:44:b6:17:a1:03 0 days, 19:31:22
+6     SSID1  10.0.0.148      Fede-l dc:44:b6:17:a1:b9 0 days, 23:49:29
+7     SSID1  10.0.0.121      androi 9c:2a:83:a7:d4:d5 0 days, 21:59:49
+8     SSID1  10.0.0.150      K40S   c8:f3:19:36:5d:f5 0 days, 23:14:49
+9     SSID1  10.0.0.111      carlos 9c:b7:0d:cf:35:f1 0 days, 22:18:28
+10    SSID1  10.0.0.145      Galaxy 20:32:6c:9f:64:ce 0 days, 16:10:54
+11    SSID1  10.0.0.114      --     fc:d4:36:a3:fe:d7 0 days, 23:46:40
+12    SSID1  10.0.0.104      --     24:46:c8:bd:43:46 0 days, 23:58:47
+13    SSID1  10.0.0.116      Galaxy d6:85:20:e2:94:84 0 days, 23:58:50
+----------------------------------------------------------------------
+Total: 13
+
+success!
+WAP>

@@ -1,0 +1,46 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.19.147
+Warning: Permanently added '10.22.19.147' (RSA) to the list of known hosts.
+root@10.22.19.147's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN3   10.0.0.146      3710SF 58:38:79:30:dd:05 0 days, 12:06:43
+2     LAN2   10.0.0.149      3710SF 58:38:79:30:d4:a0 0 days, 12:06:54
+3     LAN2   10.0.0.112      --     f8:4d:fc:fd:13:48 0 days, 12:06:53
+4     LAN2   10.0.0.103      --     0c:ec:8d:b2:86:b9 0 days, 23:38:53
+5     LAN0   10.0.0.119      androi 66:c5:e9:bb:17:7d 0 days, 22:09:27
+6     LAN0   10.0.0.143      Galaxy ae:f7:35:c0:3b:be 0 days, 19:26:55
+7     LAN2   10.0.0.122      androi 96:41:37:a2:bf:6f 0 days, 20:39:09
+8     LAN2   10.0.0.105      androi 80:65:6d:c1:bb:db 0 days, 17:54:43
+9     LAN0   10.0.0.158      Deposi 00:30:67:73:50:20 0 days, 12:59:17
+10    LAN0   10.0.0.118      androi a8:81:95:07:8d:72 0 days, 21:36:40
+11    LAN0   10.0.0.116      SISTEM 00:d8:61:df:cd:2b 0 days, 13:06:42
+12    LAN2   10.0.0.113      --     90:73:5a:d6:c4:f2 0 days, 17:03:20
+13    LAN0   10.0.0.132      --     58:d9:c3:eb:9e:7f 0 days, 20:37:28
+14    LAN2   10.0.0.114      HUAWEI 30:45:96:8e:7f:db 0 days, 13:18:13
+15    SSID1  10.0.0.117      TECNOP f4:ec:38:94:6b:1f 0 days, 13:25:21
+16    LAN0   10.0.0.111      Galaxy 0e:a4:28:01:c0:4e 0 days, 22:38:16
+17    LAN1   10.0.0.165      OchoaR 70:71:bc:e8:a8:db 0 days, 13:58:04
+18    LAN0   10.0.0.155      --     a4:07:b6:7e:4f:f7 0 days, 19:26:27
+19    LAN0   10.0.0.136      androi 34:78:d7:8c:10:c3 0 days, 19:11:10
+20    LAN2   10.0.0.133      androi a8:a1:98:80:ea:ff 0 days, 23:50:44
+21    LAN2   10.0.0.131      cm     d0:37:45:2b:da:b5 0 days, 20:51:42
+22    LAN2   10.0.0.121      Galaxy f6:ee:d5:02:28:de 0 days, 17:15:52
+23    LAN0   10.0.0.115      Galaxy a2:45:c5:b0:fc:ca 0 days, 21:36:42
+24    LAN2   10.0.0.163      Galaxy 72:d5:25:32:b3:d1 0 days, 19:09:43
+25    LAN2   10.0.0.130      EPSON4 44:d2:44:47:6c:50 0 days, 19:28:37
+26    LAN0   10.0.0.164      Galaxy e2:0d:df:07:d9:60 0 days, 19:33:22
+27    SSID0  10.0.0.108      Galaxy ce:80:5c:75:9f:e0 0 days, 19:28:58
+28    LAN0   10.0.0.125      --     f8:1f:32:b9:90:6c 0 days, 00:47:08
+----------------------------------------------------------------------
+Total: 28
+
+success!
+WAP>

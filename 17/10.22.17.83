@@ -1,0 +1,8 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.17.83
+Warning: Permanently added '10.22.17.83' (RSA) to the list of known hosts.
+root@10.22.17.83's password: 
+shell request failed on channel 0
+expect: spawn id exp6 not open
+    while executing
+"expect "success" { send "quit\r" }"
+    (file "expect.sh" line 12)

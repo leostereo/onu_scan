@@ -1,0 +1,33 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.17.21
+Warning: Permanently added '10.22.17.21' (RSA) to the list of known hosts.
+root@10.22.17.21's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN2   10.0.0.107      --     0c:fe:45:e0:a3:83 0 days, 23:17:00
+2     LAN1   10.0.0.121      Linksy c8:d7:19:77:0e:dc 0 days, 17:21:20
+3     SSID1  10.0.0.117      HUAWEI 20:54:fa:fe:07:67 0 days, 23:16:46
+4     SSID1  10.0.0.116      Galaxy d4:ae:05:3c:83:33 0 days, 13:57:52
+5     SSID1  10.0.0.127      IH09   00:08:22:c4:16:e0 0 days, 16:09:59
+6     SSID1  10.0.0.135      A72-de 2a:2d:9a:55:81:fc 0 days, 23:26:29
+7     SSID1  10.0.0.119      Chrome f4:f5:d8:27:63:b0 0 days, 18:53:33
+8     SSID1  10.0.0.102      DESKTO 9c:b6:d0:99:a0:61 0 days, 23:17:06
+9     SSID1  10.0.0.120      LAPTOP 10:63:c8:5e:df:f9 0 days, 23:42:57
+10    SSID1  10.0.0.129      --     60:6b:ff:2e:fc:ba 0 days, 22:27:20
+11    SSID1  10.0.0.109      Galaxy d2:5b:ca:bd:16:1f 0 days, 21:45:51
+12    SSID1  10.0.0.126      HPCD2B 18:60:24:cd:2b:6b 0 days, 16:27:48
+13    SSID1  10.0.0.131      HUAWEI 38:37:8b:0f:85:96 0 days, 17:19:26
+14    SSID1  10.0.0.132      Note8- 24:18:1d:c6:fb:90 0 days, 21:01:57
+15    SSID1  10.0.0.114      DESKTO 70:66:55:47:46:05 0 days, 23:44:18
+----------------------------------------------------------------------
+Total: 15
+
+success!
+WAP>

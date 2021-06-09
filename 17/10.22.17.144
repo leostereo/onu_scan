@@ -1,0 +1,40 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.17.144
+Warning: Permanently added '10.22.17.144' (RSA) to the list of known hosts.
+root@10.22.17.144's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.124      --     98:22:ef:37:d8:6e 0 days, 23:01:25
+2     SSID1  10.0.0.200      --     40:99:22:e5:6e:2f 0 days, 19:49:47
+3     SSID1  10.0.0.196      --     a4:4b:d5:3e:ea:ea 0 days, 20:30:35
+4     SSID1  10.0.0.108      TL-WA8 9e:de:d0:bb:f0:e7 0 days, 19:15:26
+5     SSID1  10.0.0.121      Galaxy 56:de:d0:bb:72:c0 0 days, 23:20:18
+6     SSID1  10.0.0.102      RedmiN a4:4b:d5:9e:4e:4d 0 days, 22:47:13
+7     SSID1  10.0.0.174      --     9a:de:d0:8c:18:08 0 days, 22:25:44
+8     SSID1  10.0.0.172      TL-WA8 56:de:d0:a7:1d:8c 0 days, 19:16:20
+9     SSID1  10.0.0.142      HPA399 48:ba:4e:a3:99:52 0 days, 23:16:32
+10    SSID1  10.0.0.103      Nadia  ae:05:1a:55:9a:7b 0 days, 17:11:15
+11    SSID1  10.0.0.185      Chrome 56:de:d0:5b:db:10 0 days, 17:57:27
+12    SSID1  10.0.0.127      LAPTOP d8:12:65:0b:06:6f 0 days, 12:03:00
+13    SSID1  10.0.0.145      Galaxy 56:de:d0:9e:0a:f3 0 days, 23:57:53
+14    SSID1  10.0.0.170      --     9a:de:d0:3e:ea:ea 0 days, 14:47:37
+15    SSID1  10.0.0.173      LAPTOP 78:2b:46:93:a7:5b 0 days, 16:34:43
+16    SSID1  10.0.0.118      --     56:de:d0:79:b2:2e 0 days, 17:27:25
+17    SSID1  10.0.0.143      LAPTOP 9a:de:d0:0b:06:6f 0 days, 13:02:31
+18    SSID1  10.0.0.120      androi a8:9f:ba:8a:61:67 0 days, 19:46:48
+19    SSID1  10.0.0.169      androi 8c:bf:a6:b5:67:8b 0 days, 22:27:24
+20    SSID1  10.0.0.136      Vaio   56:de:d0:79:e4:7d 0 days, 19:11:40
+21    SSID1  10.0.0.125      androi 28:35:45:0c:af:e4 0 days, 02:20:07
+22    SSID1  10.0.0.122      --     10:3d:0a:d7:04:8d 0 days, 20:45:26
+----------------------------------------------------------------------
+Total: 22
+
+success!
+WAP>

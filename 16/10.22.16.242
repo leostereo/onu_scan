@@ -1,0 +1,4 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.16.242
+Warning: Permanently added '10.22.16.242' (RSA) to the list of known hosts.
+root@10.22.16.242's password: 
+shell request failed on channel 0

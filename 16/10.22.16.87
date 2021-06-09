@@ -1,0 +1,2 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.16.87
+ssh: connect to host 10.22.16.87 port 22: Connection refused

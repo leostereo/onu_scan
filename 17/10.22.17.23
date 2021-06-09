@@ -1,0 +1,35 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.17.23
+Warning: Permanently added '10.22.17.23' (RSA) to the list of known hosts.
+root@10.22.17.23's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN4   10.0.0.140      TL-WR9 50:c7:bf:e0:be:61 0 days, 18:10:06
+2     SSID1  10.0.0.105      Galaxy 8e:34:f0:01:c8:ae 0 days, 23:56:31
+3     LAN3   10.0.0.108      TL-WR8 68:ff:7b:8e:cd:5e 0 days, 22:38:57
+4     LAN3   10.0.0.103      HUAWEI d0:16:b4:ac:0d:bb 0 days, 22:59:27
+5     LAN3   10.0.0.109      --     8c:9f:3b:8a:b7:63 0 days, 03:22:57
+6     LAN1   10.0.0.106      --     68:07:0a:57:73:fa 0 days, 23:50:38
+7     LAN1   10.0.0.104      --     0c:fe:45:97:41:c4 0 days, 03:29:03
+8     SSID1  10.0.0.100      iPhone 8a:c9:7e:f7:93:80 0 days, 18:29:52
+9     SSID1  10.0.0.101      iPhone 3e:4b:e7:70:d1:de 0 days, 23:48:57
+10    LAN3   10.0.0.110      Galaxy d2:26:e4:ef:68:8d 0 days, 00:54:47
+11    LAN3   10.0.0.142      --     d2:e7:a6:c5:d9:86 0 days, 23:09:08
+12    SSID1  10.0.0.111      HPF508 00:68:eb:f5:08:85 0 days, 19:47:41
+13    SSID1  10.0.0.119      DESKTO f4:06:69:d2:d0:ac 0 days, 23:37:57
+14    LAN3   10.0.0.131      Cristi 80:9b:20:20:ed:20 0 days, 15:33:16
+15    LAN3   10.0.0.115      Galaxy 7a:e6:38:be:d5:86 0 days, 22:05:51
+16    SSID1  10.0.0.145      Galaxy 24:68:b0:4c:a6:52 0 days, 23:16:57
+17    LAN1   10.0.0.150      DESKTO c8:5b:76:8e:44:38 0 days, 23:38:04
+----------------------------------------------------------------------
+Total: 17
+
+success!
+WAP>

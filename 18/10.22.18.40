@@ -1,0 +1,32 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.18.40
+Warning: Permanently added '10.22.18.40' (RSA) to the list of known hosts.
+root@10.22.18.40's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.116      androi f0:d7:aa:ad:a5:c8 0 days, 14:46:47
+2     SSID1  10.0.0.121      DESKTO 70:18:8b:3a:12:64 0 days, 14:13:22
+3     SSID1  10.0.0.114      --     90:73:5a:f8:51:24 0 days, 22:53:34
+4     SSID1  10.0.0.103      iPhone 70:14:a6:d9:a1:0e 0 days, 21:59:58
+5     SSID1  10.0.0.101      MacRet 98:01:a7:8f:de:39 0 days, 23:09:27
+6     SSID1  10.0.0.113      iPhone 9e:91:19:cb:26:92 0 days, 13:00:31
+7     SSID1  10.0.0.125      DESKTO 00:e9:3a:68:5e:0b 0 days, 13:51:06
+8     LAN1   10.0.0.130      DESKTO f0:2f:74:17:e6:fb 0 days, 14:17:16
+9     SSID1  10.0.0.105      Galaxy 94:2d:dc:98:a2:28 0 days, 18:10:52
+10    SSID1  10.0.0.133      androi b4:d1:da:c5:9e:56 0 days, 04:59:13
+11    SSID1  10.0.0.126      --     1a:c5:88:d5:4b:cd 0 days, 22:51:35
+12    SSID1  10.0.0.104      Yowwy  90:00:4e:b4:c7:69 0 days, 20:26:40
+13    SSID1  10.0.0.108      HUAWEI 20:54:fa:fe:0d:4b 0 days, 12:42:38
+14    SSID1  10.0.0.107      androi 90:97:f3:b8:24:90 0 days, 13:17:24
+----------------------------------------------------------------------
+Total: 14
+
+success!
+WAP>

@@ -1,0 +1,34 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.21.123
+Warning: Permanently added '10.22.21.123' (RSA) to the list of known hosts.
+root@10.22.21.123's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.113      SM-J41 14:96:e5:2f:73:7e 0 days, 12:04:12
+2     SSID1  10.0.0.106      ESP_97 dc:4f:22:97:6e:0f 0 days, 18:25:56
+3     SSID1  10.0.0.101      ESP_18 80:7d:3a:18:b8:00 0 days, 12:08:24
+4     SSID1  10.0.0.103      ESP_18 80:7d:3a:18:b8:f4 0 days, 12:08:14
+5     SSID1  10.0.0.107      Samsun 64:1c:b0:94:49:5d 0 days, 16:46:59
+6     SSID1  10.0.0.104      ESP_C8 cc:50:e3:c8:4e:5a 0 days, 12:09:05
+7     SSID1  10.0.0.102      ESP_DC dc:4f:22:dc:dc:94 0 days, 12:19:45
+8     SSID1  10.0.0.105      ESP_61 c8:2b:96:61:f2:fd 0 days, 12:08:59
+9     SSID1  10.0.0.108      --     ec:0d:e4:28:b5:8c 0 days, 22:38:01
+10    SSID1  10.0.0.109      iPhone ce:fd:04:52:96:2d 0 days, 21:33:39
+11    SSID1  10.0.0.110      Galaxy 5e:11:dc:05:9b:a3 0 days, 23:25:27
+12    SSID1  10.0.0.111      AR-L-7 40:a3:cc:86:aa:d3 0 days, 23:27:30
+13    SSID1  10.0.0.119      DESKTO a8:a7:95:3e:e7:ab 0 days, 13:52:17
+14    SSID1  10.0.0.116      --     00:bb:3a:63:f0:75 0 days, 11:49:38
+15    SSID1  10.0.0.118      --     08:a6:bc:b9:eb:fc 0 days, 22:19:49
+16    SSID1  10.0.0.122      Galaxy 7e:4a:73:3a:77:30 0 days, 22:26:48
+----------------------------------------------------------------------
+Total: 16
+
+success!
+WAP>

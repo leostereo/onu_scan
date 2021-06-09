@@ -1,0 +1,36 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.16.17
+Warning: Permanently added '10.22.16.17' (RSA) to the list of known hosts.
+root@10.22.16.17's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.105      Chrome 44:07:0b:e8:61:9c 0 days, 20:43:31
+2     SSID1  10.0.0.176      --     c8:3a:35:12:6e:c9 0 days, 23:36:05
+3     SSID1  10.0.0.107      --     8c:9f:3b:af:3c:59 0 days, 19:28:28
+4     LAN3   10.0.0.174      --     08:54:bb:fa:b1:f9 0 days, 22:10:13
+5     LAN1   10.0.0.157      --     d4:c9:4b:9c:8b:04 0 days, 22:21:17
+6     LAN4   10.0.0.104      DESKTO b8:ae:ed:fd:f3:23 0 days, 22:19:39
+7     SSID1  10.0.0.158      Galaxy a8:51:5b:7c:7c:97 0 days, 05:26:09
+8     SSID1  10.0.0.167      Galaxy 48:c7:96:ba:06:3b 0 days, 22:24:35
+9     SSID1  10.0.0.153      androi 38:80:df:49:af:9d 0 days, 22:23:58
+10    SSID1  10.0.0.108      --     10:77:17:d8:f0:b1 0 days, 21:53:32
+11    LAN1   10.0.0.168      androi e0:db:10:bf:a7:50 0 days, 18:55:05
+12    SSID1  10.0.0.122      --     24:46:c8:03:fe:bd 0 days, 23:22:52
+13    LAN1   10.0.0.162      --     1c:1e:e3:45:33:3a 0 days, 23:33:01
+14    SSID1  10.0.0.154      --     0c:ec:8d:b4:03:74 0 days, 15:27:05
+15    LAN1   10.0.0.171      --     90:73:5a:1b:52:bc 0 days, 23:02:05
+16    LAN1   10.0.0.148      euroca e0:3f:49:57:84:00 0 days, 18:54:56
+17    LAN1   10.0.0.170      Alumna e0:b9:a5:16:33:d0 0 days, 03:58:33
+18    SSID1  10.0.0.113      Andrea dc:f5:05:c8:30:19 0 days, 23:26:00
+----------------------------------------------------------------------
+Total: 18
+
+success!
+WAP>

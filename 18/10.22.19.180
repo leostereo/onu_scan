@@ -1,0 +1,31 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.19.180
+Warning: Permanently added '10.22.19.180' (RSA) to the list of known hosts.
+root@10.22.19.180's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.152      RE200  52:d4:f7:9e:de:aa 0 days, 13:38:29
+2     SSID1  10.0.0.136      ARGZ60 52:d4:f7:db:5e:55 0 days, 21:05:43
+3     SSID1  10.0.0.143      iPad   78:67:d7:9e:ef:2d 0 days, 23:36:30
+4     SSID1  10.0.0.151      Galaxy ba:2b:7f:22:d0:2d 0 days, 21:02:01
+5     SSID1  10.0.0.112      Flor-B 52:d4:f7:3c:07:34 0 days, 21:03:00
+6     SSID1  10.0.0.111      androi dc:f0:90:9f:84:07 0 days, 21:01:43
+7     SSID1  10.0.0.145      --     4e:2a:ea:28:47:a7 0 days, 23:53:58
+8     SSID1  10.0.0.157      LAPTOP 52:d4:f7:64:61:c9 0 days, 01:38:14
+9     LAN3   10.0.0.110      MARTIN b4:2e:99:56:2d:ed 0 days, 21:07:10
+10    SSID1  10.0.0.155      Galaxy 52:d4:f7:d8:9f:69 0 days, 23:54:25
+11    SSID1  10.0.0.146      --     52:d4:f7:c9:d6:48 0 days, 17:57:52
+12    SSID1  10.0.0.105      LGwebO b4:e6:2a:4a:93:50 0 days, 02:59:34
+13    SSID1  10.0.0.150      Galaxy 52:d4:f7:e9:ab:24 0 days, 09:17:21
+----------------------------------------------------------------------
+Total: 13
+
+success!
+WAP>

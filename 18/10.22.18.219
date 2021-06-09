@@ -1,0 +1,33 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.18.219
+Warning: Permanently added '10.22.18.219' (RSA) to the list of known hosts.
+root@10.22.18.219's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.149      --     ae:84:c6:2d:62:f3 0 days, 20:04:46
+2     LAN1   10.0.0.141      Archer 60:32:b1:2e:c8:09 0 days, 23:56:30
+3     SSID1  10.0.0.106      TL-WA8 ae:84:c6:d5:43:0a 0 days, 12:57:42
+4     LAN1   10.0.0.134      --     00:d9:d1:ca:17:72 0 days, 23:55:38
+5     SSID1  10.0.0.110      ESP_C5 ae:84:c6:c5:68:9a 0 days, 19:00:34
+6     SSID1  10.0.0.155      --     ae:84:c6:3c:96:bb 0 days, 20:07:36
+7     SSID1  10.0.0.127      --     30:ff:f6:3d:7d:79 0 days, 20:14:41
+8     LAN1   10.0.0.144      TIZEN  24:fc:e5:db:2a:82 0 days, 22:11:04
+9     SSID1  10.0.0.130      Selva  92:77:d2:0e:f8:13 0 days, 18:32:31
+10    SSID1  10.0.0.103      Galaxy 96:94:44:53:88:7c 0 days, 21:38:26
+11    LAN2   10.0.0.113      --     f8:46:1c:15:12:cb 0 days, 22:11:16
+12    LAN1   10.0.0.116      Storno a0:af:bd:ca:20:33 0 days, 20:56:15
+13    SSID1  10.0.0.102      Storno a0:af:bd:ca:1f:75 0 days, 12:07:00
+14    LAN1   10.0.0.152      androi 98:4b:4a:cd:bf:e3 0 days, 21:56:08
+15    LAN3   10.0.0.105      --     cc:2d:8c:25:09:dd 0 days, 00:00:33
+----------------------------------------------------------------------
+Total: 15
+
+success!
+WAP>

@@ -1,0 +1,32 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.17.111
+Warning: Permanently added '10.22.17.111' (RSA) to the list of known hosts.
+root@10.22.17.111's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN3   10.0.0.105      DESKTO 4c:cc:6a:fb:f7:9e 0 days, 23:15:50
+2     LAN4   10.0.0.110      Galaxy 48:c7:96:92:4b:fd 0 days, 17:20:17
+3     LAN4   10.0.0.103      HUAWEI c0:f4:e6:ef:3d:5f 0 days, 22:40:54
+4     LAN4   10.0.0.101      --     bc:ff:eb:3f:e4:b5 0 days, 13:11:15
+5     SSID1  10.0.0.117      Daniel b4:b6:76:0c:19:3a 0 days, 21:02:23
+6     SSID1  10.0.0.104      Galaxy 92:72:26:c0:78:e6 0 days, 19:59:23
+7     LAN2   10.0.0.115      Mirian 64:66:b3:b1:8a:b5 0 days, 15:27:02
+8     LAN4   10.0.0.109      --     40:cd:7a:14:5f:d8 0 days, 22:18:13
+9     SSID1  10.0.0.113      DAG    b4:bf:f6:f6:73:ff 0 days, 21:36:10
+10    LAN4   10.0.0.107      --     08:cc:27:f3:25:e6 0 days, 17:48:33
+11    LAN4   10.0.0.131      DESKTO dc:85:de:ad:15:03 0 days, 20:46:44
+12    SSID1  10.0.0.112      androi dc:44:b6:ae:2b:f1 0 days, 17:03:18
+13    SSID1  10.0.0.120      P56738 a0:51:0b:28:ff:e6 0 days, 19:07:56
+14    LAN2   10.0.0.121      P56738 d8:d0:90:04:be:72 0 days, 19:08:03
+----------------------------------------------------------------------
+Total: 14
+
+success!
+WAP>

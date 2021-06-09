@@ -1,0 +1,19 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.16.12
+root@10.22.16.12's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.105      --     24:46:c8:bd:28:28 0 days, 20:51:14
+2     SSID1  10.0.0.103      androi 48:c7:96:6e:1e:cd 0 days, 20:53:20
+----------------------------------------------------------------------
+Total: 2
+
+success!
+WAP>

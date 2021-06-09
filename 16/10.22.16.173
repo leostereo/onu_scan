@@ -1,0 +1,39 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.16.173
+Warning: Permanently added '10.22.16.173' (RSA) to the list of known hosts.
+root@10.22.16.173's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.154      localh 9c:8c:6e:54:de:7e 0 days, 20:06:06
+2     SSID1  10.0.0.194      AJCAAE 54:f1:5f:00:22:20 0 days, 12:36:44
+3     SSID1  10.0.0.186      AJCAAE a0:9f:10:ad:58:b8 0 days, 12:36:47
+4     SSID1  10.0.0.184      AJCAAE a0:9f:10:4a:60:88 0 days, 12:36:47
+5     SSID1  10.0.0.187      AJCAAE 54:f1:5f:00:22:59 0 days, 12:36:47
+6     SSID1  10.0.0.140      TL-WA8 d8:07:b6:56:b2:4e 0 days, 23:53:01
+7     SSID1  10.0.0.146      --     84:a4:66:47:ee:a2 0 days, 21:28:30
+8     SSID1  10.0.0.118      iPhone ac:e4:b5:20:81:7b 0 days, 12:37:56
+9     SSID1  10.0.0.105      --     40:99:22:77:64:29 0 days, 21:28:34
+10    SSID1  10.0.0.121      LAPTOP d8:c0:a6:d0:d5:5b 0 days, 14:22:37
+11    SSID1  10.0.0.153      rosana d6:18:13:e0:0f:3f 0 days, 22:36:00
+12    SSID1  10.0.0.104      Bruno- fc:a6:21:b5:b1:30 0 days, 22:57:39
+13    SSID1  10.0.0.115      rosana 8c:85:90:92:be:c0 0 days, 13:21:42
+14    SSID1  10.0.0.108      Galaxy f2:ed:f1:a3:2b:46 0 days, 23:50:15
+15    SSID1  10.0.0.173      --     90:73:5a:72:aa:b8 0 days, 12:28:16
+16    SSID1  10.0.0.103      Galaxy c6:d1:03:75:65:2f 0 days, 23:55:37
+17    SSID1  10.0.0.111      iMacde 00:1e:c2:bd:74:c0 0 days, 23:52:12
+18    SSID1  10.0.0.102      FZ     ca:ff:07:15:fa:40 0 days, 22:06:34
+19    SSID1  10.0.0.120      rosana b6:09:9e:a1:0d:86 0 days, 23:05:10
+20    SSID1  10.0.0.106      Galaxy e0:d0:83:2f:3a:3b 0 days, 21:55:17
+21    SSID1  10.0.0.109      FZ     7e:e5:0b:7d:85:4e 0 days, 09:36:49
+----------------------------------------------------------------------
+Total: 21
+
+success!
+WAP>

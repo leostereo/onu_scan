@@ -1,0 +1,29 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.16.40
+Warning: Permanently added '10.22.16.40' (RSA) to the list of known hosts.
+root@10.22.16.40's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     LAN1   10.0.0.105      DESKTO 4c:cc:6a:d3:fb:f6 0 days, 22:14:15
+2     SSID1  10.0.0.106      DESKTO 78:0c:b8:f8:23:c5 0 days, 19:38:55
+3     SSID1  10.0.0.107      RedmiN a4:45:19:1c:8b:d0 0 days, 18:27:55
+4     SSID1  10.0.0.102      androi fc:19:10:26:6c:9e 0 days, 15:01:43
+5     SSID1  10.0.0.104      Galaxy 52:da:22:21:bd:a2 0 days, 13:45:03
+6     SSID1  10.0.0.103      androi 44:6e:e5:d7:82:a9 0 days, 15:07:28
+7     SSID1  10.0.0.117      DESKTO 9c:29:76:33:da:33 0 days, 22:48:47
+8     SSID1  10.0.0.101      Samsun 68:27:37:c5:4d:23 0 days, 20:41:44
+9     SSID1  10.0.0.114      --     f8:3f:51:cd:0c:64 0 days, 22:44:20
+10    SSID1  10.0.0.110      HUAWEI 04:4f:4c:a4:70:f9 0 days, 12:22:42
+11    SSID1  10.0.0.116      DESKTO 44:6d:57:45:ab:5e 0 days, 03:19:48
+----------------------------------------------------------------------
+Total: 11
+
+success!
+WAP>

@@ -1,0 +1,29 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.20.199
+Warning: Permanently added '10.22.20.199' (RSA) to the list of known hosts.
+root@10.22.20.199's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.103      Galaxy 3e:f4:7f:f6:74:3c 0 days, 21:25:36
+2     SSID1  10.0.0.109      BRW40B 40:b8:9a:ba:98:7d 0 days, 16:45:28
+3     SSID1  10.0.0.105      Galaxy 5a:29:4d:49:d8:a7 0 days, 22:14:54
+4     SSID1  10.0.0.129      Galaxy 36:64:19:e8:fd:b4 0 days, 23:13:09
+5     SSID1  10.0.0.122      --     0c:62:a6:ac:ce:e9 0 days, 23:12:08
+6     SSID1  10.0.0.102      Samsun d8:e0:e1:92:01:27 0 days, 23:25:44
+7     SSID1  10.0.0.128      Galaxy e2:c8:68:f2:99:8b 0 days, 23:23:18
+8     SSID1  10.0.0.110      Galaxy 32:74:d4:59:d8:a3 0 days, 23:21:50
+9     SSID1  10.0.0.107      WIN-5R e0:91:53:4f:8f:9a 0 days, 04:17:03
+10    SSID1  10.0.0.104      LAPTOP 20:4e:f6:b2:e2:bf 0 days, 22:53:56
+11    SSID1  10.0.0.106      Galaxy a4:07:b6:f6:70:8a 0 days, 22:58:40
+----------------------------------------------------------------------
+Total: 11
+
+success!
+WAP>

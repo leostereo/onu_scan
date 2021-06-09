@@ -1,0 +1,34 @@
+spawn ssh -oStrictHostKeyChecking=no -oCheckHostIP=no root@10.22.18.208
+Warning: Permanently added '10.22.18.208' (RSA) to the list of known hosts.
+root@10.22.18.208's password: 
+
+Password is default value, please modify it!
+WAP>display dhcp server user all
+
+start detecting lan dev ...
+
+----------------------------------------------------------------------
+Index User   IP              Host   HW Addr           Expire-time       
+      Port                   Name   
+----------------------------------------------------------------------
+1     SSID1  10.0.0.122      RE200  52:d4:f7:39:07:d4 0 days, 19:13:27
+2     SSID1  10.0.0.103      --     d0:77:14:ac:31:49 0 days, 23:41:58
+3     LAN4   10.0.0.123      --     b4:a3:82:c9:62:3a 0 days, 16:04:58
+4     SSID1  10.0.0.105      --     f8:1f:32:d9:e0:3c 0 days, 23:00:45
+5     SSID1  10.0.0.104      RedmiN 70:3a:51:0b:c7:a0 0 days, 23:41:22
+6     SSID1  10.0.0.112      RedmiN 52:d4:f7:0b:c7:a0 0 days, 19:18:32
+7     SSID1  10.0.0.111      HUAWEI 52:d4:f7:5c:05:58 0 days, 20:51:49
+8     SSID1  10.0.0.101      HUAWEI 88:bf:e4:5c:05:58 0 days, 21:19:44
+9     SSID1  10.0.0.116      DESKTO 52:d4:f7:f2:14:7b 0 days, 23:36:49
+10    SSID1  10.0.0.102      localh cc:b1:1a:42:99:be 0 days, 22:11:08
+11    SSID1  10.0.0.106      LAPTOP 08:d2:3e:fe:bc:80 0 days, 23:52:20
+12    SSID1  10.0.0.117      LAPTOP 52:d4:f7:9d:62:00 0 days, 22:22:44
+13    SSID1  10.0.0.133      LGwebO 52:d4:f7:11:7f:d8 0 days, 20:12:04
+14    SSID1  10.0.0.114      --     08:ed:b9:a6:da:ab 0 days, 19:23:13
+15    SSID1  10.0.0.126      idea-P 52:d4:f7:a6:da:ab 0 days, 15:28:01
+16    SSID1  10.0.0.118      HUAWEI a0:57:e3:12:41:45 0 days, 22:25:47
+----------------------------------------------------------------------
+Total: 16
+
+success!
+WAP>
